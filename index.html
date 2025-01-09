@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body style="display: flex">
+    <div id="cart">
+      <div
+        style="display: flex; justify-content: start; flex-direction: column"
+      >
+        <h2 id="Title">Product 1</h2>
+        <div style="width: 50%; display: flex; flex-direction: row; gap: 15px">
+          <img
+            width="80%"
+            src="https://www.shopmarriott.com/images/products/v2/xlrg/Marriott-feather-down-pillow-MAR-108_xlrg.jpg"
+            alt=""
+          />
+
+          <div style="display: flex; gap: 12px; flex-direction: column">
+            <p>Price : $10</p>
+            <div style="display: flex; gap: 10px">
+              <button id="plus">+</button>
+              <p id="quantity">0</p>
+              <button id="minus">-</button>
+            </div>
+          </div>
+        </div>
+      </div>
+      <br>
+    </div>
+    <div id="total">
+      <h1>Total Price : <span id="total_price">0</span>$</h1>
+    </div>
+    <script src="index.js"></script>
+  </body>
+</html>
